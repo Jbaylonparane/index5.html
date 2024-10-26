@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+    color: #dc4b09;
+    margin: 0;
+    padding: 20px;
+    background-image: url(img2/line.gif);
+    background-size: cover;
+}
+
+
+#bpForm {
+    background-color:transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(225, 222, 222, 0.1);
+}
+
+
+input[type="number"] {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #2b2727;
+    border-radius: 4px;
+}
+
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+canvas {
+    max-width: 100%;
+    margin-top: 20px;
+    border: 2px solid #ed5c09;
+    border-radius: 8px; 
+    
